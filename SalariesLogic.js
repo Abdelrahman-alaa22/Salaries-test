@@ -43,16 +43,16 @@ subbutton.addEventListener('click', function() {
 const namesList = ['Name1', 'Name2', 'Name3', 'Name4', 'Name5', 'Name6',]
 
 
-// for (let i = 0; i < namesList.length; i++){
+for (let i = 0; i < namesList.length; i++){
 
-//     if(namesList[i] === "Name3"){
-//         continue;
-//     }
+    if(namesList[i] === "Name3"){
+        continue;
+    }
 
 
-//     console.log(namesList[i])
+    console.log(namesList[i])
 
-// }
+}
 
 
 
