@@ -49,10 +49,27 @@ for (let i = 0; i < namesList.length; i++){
         continue;
     }
 
-
     console.log(namesList[i])
-
 }
+
+
+
+
+let allItemsInList = document.getElementById("items");
+
+let btn = document.getElementById("addItem")
+
+
+btn.addEventListener("click", function() {
+
+    let newItemValue = document.getElementById("newItem").value;
+    const newItem = document.createElement("li");
+    newItem.textContent = newItemValue;
+    allItemsInList.appendChild(newItem);
+    document.getElementById("newItem").value = "";
+
+
+});
 
 
 
