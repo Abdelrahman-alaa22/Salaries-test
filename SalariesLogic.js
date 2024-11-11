@@ -39,22 +39,6 @@ subbutton.addEventListener('click', function() {
 
 
 
-
-const namesList = ['Name1', 'Name2', 'Name3', 'Name4', 'Name5', 'Name6',]
-
-
-for (let i = 0; i < namesList.length; i++){
-
-    if(namesList[i] === "Name3"){
-        continue;
-    }
-
-    console.log(namesList[i])
-}
-
-
-
-
 let allItemsInList = document.getElementById("items");
 
 let btn = document.getElementById("addItem")
@@ -68,12 +52,11 @@ btn.addEventListener("click", function() {
     allItemsInList.appendChild(newItem);
     document.getElementById("newItem").value = "";
 
-
 });
 
 
 
-
+const namesList = ['Name1', 'Name2', 'Name3', 'Name4', 'Name5', 'Name6',]
 
 
 
